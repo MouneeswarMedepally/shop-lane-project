@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Homepage.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script
+      src="https://kit.fontawesome.com/b66651432e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SHOP LANE</title>
+  </head>
+  <body>
+    <header class="header-class">
+      <div class="logo-div">
+        <a href="#" class="anchor-tags logo-anchor">
+          <span class="shop-logo">SHOP</span>
+          <span class="lane-logo">LANE</span>
+          <div class="lane-before"></div>
+          <div class="lane-after"></div>
+        </a>
+      </div>
+      <nav class="nav-bar">
+        <div class="header-categories">
+          <a class="header-clothing anchor-tags" href="#clothing">CLOTHING</a>
+          <a class="header-accessories anchor-tags" href="#accessories">ACCESSORIES</a>
+        </div>
+        <div class="search-bar">
+          <div class="input-dropdown">
+            <input type="text" id="searchBox" name="searchItem" list="items" />
+            <div id="search-dropdown"></div>
+          </div>
+          <button id="searchButton">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          </button>
+        </div>
+        <div class="header-cart-section">
+          <a href="/checkoutPage.html" class="anchor-tags cart-link">
+            <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
+            <span id="cart-items-count"></span>
+          </a>
+        </div>
+  
+        <div class="header-user-info">
+          <a href="#" class="anchor-tags header-user-icon-link">
+            <i class="fa-solid fa-user header-user-icon"></i>
+          </a>
+        </div>
+
+      </nav>
+
+      <div class="nav-bar-small-screens">
+        <div class="menu-bar">
+            <div class="menu-bar-items">
+                <div class="ham-line"></div>
+                <div class="ham-line"></div>
+                <nav class="small-nav">
+                  <div class="header-categories">
+                    <a class="header-clothing anchor-tags" href="#clothing">CLOTHING</a>
+                    <hr>
+                    <a class="header-accessories anchor-tags" href="#accessories">ACCESSORIES</a>
+                    <hr>
+                  </div>
+                  <div class="header-user-info">
+                    <a href="#" class="anchor-tags">
+                      <i class="fa-solid fa-user header-user-icon"></i>
+                    </a>
+                  </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+      <section class="banners-section">
+        <div id="banners" class="auto-play">
+            <img src="banner1.png" alt="image-1">
+            <img src="banner2.png" alt="image-1">
+            <img src="banner3.png" alt="image-1">
+            <img src="banner4.png" alt="image-1">
+        </div>
+      </section>
+      <section id="clothing">
+        <h2 class="section-heading">Clothing for Men and Women</h2>
+      </section>
+      <section id="accessories">
+        <h2 class="section-heading">Accessories for Men and Women</h2>
+      </section>
+    </main>
+    <div class="edyoda-logo_div">
+      <a href="#">
+          <div class="edyoda-logo">EDYODA</div>
+          <p class="projects-logo">projects</p>
+      </a>
+  </div>
+    <footer class="footer-class">
+        <div class="footer-column1">
+            <p class="footer-heading">Online Store</p>
+            <a href="/" class="footer-link">Men Clothing</a>
+            <a href="/" class="footer-link">Women Clothing</a>
+            <a href="/" class="footer-link">Men Accessories</a>
+            <a href="/" class="footer-link">Women Accessories</a>
+        </div>
+        <div class="footer-column2">
+            <p class="footer-heading">Helpful Links</p>
+            <a href="/" class="footer-link">Home</a>
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Contact</a>
+        </div>
+        <div class="footer-column2">
+            <p class="footer-heading">Partners</p>
+            <a href="/" class="footer-link">Zara</a>
+            <a href="/" class="footer-link">Pantaloons</a>
+            <a href="/" class="footer-link">Levis</a>
+            <a href="/" class="footer-link">UCB</a>
+            <a href="/" class="footer-link">+ Many More</a>
+        </div>
+        <div class="footer-column4">
+            <p class="footer-heading">Address</p>
+            <p href="/" class="footer-link">Building 101</p>
+            <p href="/" class="footer-link">Central Avenue</p>
+            <p href="/" class="footer-link">LA - 902722</p>
+            <p href="/" class="footer-link">United States</p>
+        </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="headerStyling.js"></script>
+    <script type="text/javascript" src="dataforcart.js"></script>
+    <script type="text/javascript" src="Homepage.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>
