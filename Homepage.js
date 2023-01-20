@@ -30,7 +30,7 @@ $(document).ready(function () {
         let productList = JSON.parse(e.target.response);
         //change event function
         function onChange(e) {
-          let searchItem = e.target.value.toLowerCase();
+          let searchItem = e.target.value.toLowerCase().trim();
           // filter function
           function searchFunction(item) {
             trimmedSearchItem = searchInputTrim(searchItem);
@@ -124,7 +124,7 @@ $(document).ready(function () {
             searchElement.blur();
             elementFocus();
           }
-          searchWord = e.target.value.toLowerCase();
+          searchWord = e.target.value.toLowerCase().trim();
           searchWordTrimmed = searchWord;
           function searchFunction(item) {
             let includes =
